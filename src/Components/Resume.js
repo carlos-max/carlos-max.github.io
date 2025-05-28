@@ -22,8 +22,7 @@ class Resume extends Component {
         <div key={education.school}>
           <h3>{education.school}</h3>
           <p className="info">
-            {education.degree} <span>&bull;</span>
-            <em className="date">{education.graduated}</em>
+            {education.degree} <span></span>
           </p>
           <p>{education.description}</p>
         </div>
@@ -38,7 +37,7 @@ class Resume extends Component {
             {work.title}
             <span>&bull;</span> <em className="date">{work.years}</em>
           </p>
-          <p>{work.description}</p>
+          <p style={{ whiteSpace: 'pre-line' }}>{work.description}</p>
         </div>
       );
     });

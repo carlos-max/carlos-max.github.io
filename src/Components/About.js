@@ -28,7 +28,7 @@ class About extends Component {
             <div className="nine columns main-col">
               <h2>{aboutMe}</h2>
 
-              <p>{bio}</p>
+              <p style={{ whiteSpace: 'pre-line' }}>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
                   <h2>{contactInfo}</h2>

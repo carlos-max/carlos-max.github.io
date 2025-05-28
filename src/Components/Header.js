@@ -45,6 +45,7 @@ class Header extends Component {
                 {resume}
               </a>
             </li>   
+            {/*
             <li>
               <ReactFlagsSelect
                 countries={["US", "BR"]}
@@ -54,7 +55,8 @@ class Header extends Component {
                 selected={this.props.locale ? this.props.locale : 'US'}
                 onSelect={code => this.props.changeLocale(code)}
               />
-            </li>         
+            </li>    
+            */}     
           </ul>
         </nav>
 
